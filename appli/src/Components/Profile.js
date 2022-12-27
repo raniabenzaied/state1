@@ -12,14 +12,9 @@ export class Profile extends Component {
             Image : {Image} ,
             timer : 0 ,
             intervall : null , 
-            counter : 0 ,
         }
     }
-    increment=()=>(
-        this.setState({
-            counter : this.state.counter + 1 ,
-        }
-    ))
+ 
     componentDidMount(){
         this.setState({
             intervall : setInterval (
@@ -36,15 +31,7 @@ export class Profile extends Component {
         <h2>{this.props.title}</h2>
         
         <h3>intervallTimer  = {this.state.timer}</h3>
-        <h3>Count = {this.state.counter}</h3>
-        <button
-          onClick={(event) => {
-            const newCount = this.state.counter + 1;
-            this.setState({ counter: newCount });
-          }}
-        >
-          increment 
-        </button>
+       
       </div>
     )
   }
