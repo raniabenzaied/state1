@@ -1,6 +1,5 @@
 import Profile from '../src/Components/Profile'
-import './App.css';
-
+import './App.css'
 import React, { Component } from 'react'
 
 export class App extends Component {
@@ -21,7 +20,6 @@ export class App extends Component {
         {
         this.state.show ? (<Profile/>) : (<h1>i have nothing to show </h1>)
         }
-        
 
       </div>
     )

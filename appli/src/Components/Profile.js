@@ -30,7 +30,7 @@ export class Profile extends Component {
   render() {
     return (
       <div>
-        <h1>{this.state.FullName}</h1>
+        <h1 style={{color: "black",backgroundColor: '#c8eff9',padding: "10px",fontFamily: "Arial",textAlign:'center'}}>{this.state.FullName} </h1>
         <h2>{this.state.Bio}</h2>
         <h2>{this.state.Profession}</h2>
         <h2>{this.props.title}</h2>

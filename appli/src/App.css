@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+button {pointer-events: auto;
+cursor: pointer;
+background: #c8eff9;
+border: none;
+padding: 1.5rem 3rem;
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+position: relative;
+display: inline-block;
+border-radius: 10px;
+
+}
+h2 {
+  font-weight: bold;
+   color: rgb(10, 9, 12);
+   text-align: center;
+   text-decoration: underline;
+}
